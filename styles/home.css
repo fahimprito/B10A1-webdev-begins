@@ -173,6 +173,9 @@ main {
     margin-bottom: 100px;
 }
 
+.text-container {
+    margin: 0 130px;
+}
 
 .text {
     width: 480px;
@@ -202,13 +205,8 @@ main {
 /* --------------inspiration----------- */
 
 .inspiration {
-    background-color: aquamarine;
     display: flex;
     flex-direction: column;
-}
-
-.inspiration .text-container {
-    margin: 0 144px;
 }
 
 .video-card {
@@ -227,4 +225,69 @@ main {
     width: 1076px;
     height: 550px;
     border-radius: 15px;
+}
+
+
+/* -------------Current Target--------- */
+
+.target-now {
+    background-color: rgb(230, 245, 240);
+    margin-top: 150px;
+}
+
+.target-card-container {
+    display: flex;
+    gap: 24px;
+}
+
+.target-card {
+
+    width: 284px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+}
+ /* card background color  */
+.bg-card1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.bg-card2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.bg-card3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+
+.target-logo {
+    width: 56px;
+    height: 56px;
+}
+
+.target-card>h4 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.target-card>p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.target-card>a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
 }
