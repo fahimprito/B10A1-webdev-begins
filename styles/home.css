@@ -231,7 +231,6 @@ main {
 /* -------------Current Target--------- */
 
 .target-now {
-    background-color: rgb(230, 245, 240);
     margin-top: 150px;
 }
 
@@ -249,15 +248,21 @@ main {
     justify-content: space-between;
     padding: 40px;
 }
- /* card background color  */
-.bg-card1{
+
+/* card background color  */
+.bg-card1 {
     background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
 }
-.bg-card2{
+
+.bg-card2 {
     background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
 }
-.bg-card3{
+
+.bg-card3 {
     background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
 }
 
 
@@ -284,6 +289,77 @@ main {
 }
 
 .target-card>a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/* next target skill------------------------ */
+
+.nextskill {
+    background-color: rgba(128, 255, 0, 0.329);
+    margin-top: 111px;
+}
+
+.skill-container {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.skill {
+    width: 1140px;
+    height: 220px;
+    display: flex;
+    gap: 24px;
+    padding: 40px;
+}
+
+.skill-bg {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+}
+
+.skill-logo {
+    display: flex;
+    align-items: center;
+}
+
+.skill-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.skill-text>h4 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.skill-text>p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.skill-text>a {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
